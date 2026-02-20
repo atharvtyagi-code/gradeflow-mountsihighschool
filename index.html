@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>MSHS_CGPA_CALCULATOR</title>
+    </head>
+
+    <body>
+        <h1 id = "title"></h1>
+        <p>
+            Struggling to calculate your cumulative GPA? Cumulative GPA is your overall gpa that you have had throughout your high school life from 9th grade to whichever grade you are in. It's the most important factor that affects which college you go to, which is affected by your semester gpa. If you are struggling to calculate your cumulative gpa, then you are in luck. We can calculate your future cumulative gpa based on your current semester gpa so that you don't have to be so stressed wondering whether you will be able to make your gpa target and you will be able to plan ahead of time before it's too late. If you struggle to know any of these information below, then please check your skyward gradebook/graduation requirements section.
+        </p>
+
+        <div class="cgpa">
+            <label for="cgpa">Enter your current cumulative GPA: </label>
+            <input id="gpaInput" type="text" placeholder="Cumulative gpa" />
+        </div>
+
+        <div class="high_school_credits">
+            <label for="high_school_credits">Enter your completed high school credits: </label>
+            <input id="creditsInput" type="text" placeholder="Credits" />
+        </div>
+
+        <div class="sgpa">
+            <label for="sgpa">Enter your current semester GPA: </label>
+            <input id="sgpaInput" type="text" placeholder="Semester gpa">
+        </div>
+
+        <div class="semester_credits">
+            <label for="semester_credits">Enter your semester credits: </label>
+            <input id="scInput" type="text" placeholder="Semester Credits" />
+        </div>
+
+        <button id = "btn1">Calculate Cumulative GPA</button>
+
+        <p2 id="output2"></p2>
+
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </body>
+</html>
