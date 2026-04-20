@@ -25,57 +25,123 @@ label{
     color: white;
 }
 
+#output3{
+    color:white;
+    justify-content: center;
+    position: relative;
+}
+
 .cgpa {
     display: flex;
-    justify-content: left;
+    justify-content: right;
     gap: 8px;
-    margin-top: 100px;
-    margin-bottom: -35px;
+    position: relative;
+    bottom: 300px;
     font-size: 30px;
 }
 
 .high_school_credits {
     display: flex;
     justify-content: right;
-    gap: 8px;
-    font-size: 30px;
-}
-
-.sgpa {
-    display: flex;
-    justify-content: left;
-    gap: 8px;
-    margin-top: 100px;
-    margin-bottom: -32px;
+    gap: 16px;
+    position: relative;
+    bottom: 220px;
     font-size: 30px;
 }
 
 .semester_credits {
     display: flex;          /* It makes it easier to build spaces between two different things and align them side-by-side. */
     justify-content: right;      /* It aligns the text to the left side. */
-    gap: 8px;               /* It leaves a horizontal gap by 8px. */
+    gap: 16px;               /* It leaves a horizontal gap by 16px. */
+    position: relative;
+    bottom: 130px;
     font-size: 30px;
 }
 
 #btn1{
     display: block;
+    margin: 0 auto;
+    right: 62px;
+    top: 650px;
     cursor: pointer;
     background-color: blue;
     color: white;
     width: 275px;
     height: 50px;
-    margin-top: 1000px;
-    top: 100px;
-    position: relative;
+    justify-content: center;
+    text-align: center;
     font-size: 22px;
-    margin: 0 auto;
+}
+
+.first_period_grades {
+    display: flex;      /*It makes the computer show that it has followed the laws.*/
+    font-size: 24px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.second_period_grades {
+    display: flex;      /*It makes the computer show that it has followed the laws.*/
+    font-size: 24px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.third_period_grades {
+    display: flex;      /*It makes the computer show that it has followed the laws.*/
+    font-size: 24px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.fourth_period_grades {
+    display: flex;      /*It makes the computer show that it has followed the laws.*/
+    font-size: 24px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.fifth_period_grades {
+    display: flex;      /*It makes the computer show that it has followed the laws.*/
+    font-size: 24px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.sixth_period_grades {
+    display: flex;      /*It makes the computer show that it has followed the laws.*/
+    font-size: 24px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.seventh_period_grades {
+    display: flex;      /*It makes the computer show that it has followed the laws.*/
+    font-size: 24px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 20px;
 }
 
 #output2 {
+    color: white;
     display: flex;
-    text-align: center;
-    font-size: 24px;
-    top: 150px;
-    justify-content: center;;
-    position: relative;
+    font-size: 44px;
+    text-align: right;
+    justify-content: right;
+    margin-top: -40px;
+}
+
+#output3 {
+    color:white;
+    display: flex;
+    font-size: 44px;
+    justify-content: flex-start;
+    margin-top: -40px;
 }
