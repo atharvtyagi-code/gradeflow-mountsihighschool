@@ -1,40 +1,168 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>MSHS_CGPA_CALCULATOR</title>
+        <title>MSHS_CGPA_CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+        <div class="container"><meta id = "container" name="viewport" content="width=device-width, initial-scale=1.0"></div>
     </head>
 
     <body>
         <h1 id = "title"></h1>
         <p>
-            Struggling to calculate your cumulative GPA? Cumulative GPA is your overall gpa that you have had throughout your high school life from 9th grade to whichever grade you are in. It's the most important factor that affects which college you go to, which is affected by your semester gpa. If you are struggling to calculate your cumulative gpa, then you are in luck. We can calculate your future cumulative gpa based on your current semester gpa so that you don't have to be so stressed wondering whether you will be able to make your gpa target and you will be able to plan ahead of time before it's too late. If you struggle to know any of these information below, then please check your skyward gradebook/graduation requirements section.
+            Struggling to calculate your cumulative GPA? Cumulative GPA is your overall gpa that you have had throughout your high school life. It's the most important factor, affected by your semester GPA, that affects which college you go to. If you are struggling to calculate your cumulative gpa, then you are in luck. We can calculate your future cumulative gpa based on your current semester gpa, allowing you to be able to plan ahead of time before it's too late. If you struggle to know any of these information below, then please check your skyward gradebook/graduation requirements section.
         </p>
 
+        <div class="first_period_grades">
+            <label>Grade in period 1: </label>
+            <select id="period1" name="text" required>
+                <option value = "grade_op">Select your grade</option>
+                <option value = "A">A</option>
+                <option value = "A-">A-</option>
+                <option value = "B+">B+</option>
+                <option value = "B">B</option>
+                <option value = "B-">B-</option>
+                <option value = "C+">C+</option>
+                <option value = "C">C</option>
+                <option value = "C-">C-</option>
+                <option value = "D+">D+</option>
+                <option value = "D">D</option>
+                <option value = "F">F</option>
+            </select>
+        </div>
+
+        <div class="second_period_grades">
+            <label>Grade in period 2: </label>
+            <select id = "period2" name="text" required>
+                <option value = "grade_ops">Select your grade</option>
+                <option value = "A">A</option>
+                <option value = "A-">A-</option>
+                <option value = "B+">B+</option>
+                <option value = "B">B</option>
+                <option value = "B-">B-</option>
+                <option value = "C+">C+</option>
+                <option value = "C">C</option>
+                <option value = "C-">C-</option>
+                <option value = "D+">D+</option>
+                <option value = "D">D</option>
+                <option value = "F">F</option>
+            </select>
+        </div>
+
+        <div class="third_period_grades">
+            <label>Grade in period 3: </label>
+            <select id = "period3" name="text" required>
+                <option value = "grade_ops">Select your grade</option>
+                <option value = "A">A</option>
+                <option value = "A-">A-</option>
+                <option value = "B+">B+</option>
+                <option value = "B">B</option>
+                <option value = "B-">B-</option>
+                <option value = "C+">C+</option>
+                <option value = "C">C</option>
+                <option value = "C-">C-</option>
+                <option value = "D+">D+</option>
+                <option value = "D">D</option>
+                <option value = "F">F</option>
+            </select>
+        </div>
+
+        <div class="fourth_period_grades">
+            <label>Grade in period 4: </label>
+            <select id = "period4" name="text" required>
+                <option value = "grade_sel">Select your grade</option>
+                <option value = "A">A</option>
+                <option value = "A-">A-</option>
+                <option value = "B+">B+</option>
+                <option value = "B">B</option>
+                <option value = "B-">B-</option>
+                <option value = "C+">C+</option>
+                <option value = "C">C</option>
+                <option value = "C-">C-</option>
+                <option value = "D+">D+</option>
+                <option value = "D">D</option>
+                <option value = "F">F</option>
+            </select>
+        </div>
+
+        <div class="fifth_period_grades">
+            <label>Grade in period 5: </label>
+            <select id = "period5" name="text" required>
+                <option value = "select_grade">Select your grade</option>
+                <option value = "A">A</option>
+                <option value = "A-">A-</option>
+                <option value = "B+">B+</option>
+                <option value = "B">B</option>
+                <option value = "B-">B-</option>
+                <option value = "C+">C+</option>
+                <option value = "C">C</option>
+                <option value = "C-">C-</option>
+                <option value = "D+">D+</option>
+                <option value = "D">D</option>
+                <option value = "F">F</option>
+            </select>
+        </div>
+
+        <div class="sixth_period_grades">
+            <label>Grade in period 6: </label>
+            <select id = "period6" name="text" required>
+                <option value = "Select_grade">Select your grade</option>
+                <option value = "A">A</option>
+                <option value = "A-">A-</option>
+                <option value = "B+">B+</option>
+                <option value = "B">B</option>
+                <option value = "B-">B-</option>
+                <option value = "C+">C+</option>
+                <option value = "C">C</option>
+                <option value = "C-">C-</option>
+                <option value = "D+">D+</option>
+                <option value = "D">D</option>
+                <option value = "F">F</option>
+            </select>
+        </div>
+
+        <div class="seventh_period_grades">
+            <label>Grade in period 7: </label>
+            <select id = "period7" type="text" placeholder="Enter your grade">
+                <option value = "select_grade">Select your grade</option>
+                <option value = "A">A</option>
+                <option value = "A-">A-</option>
+                <option value = "B+">B+</option>
+                <option value = "B">B</option>
+                <option value = "B-">B-</option>
+                <option value = "C+">C+</option>
+                <option value = "C">C</option>
+                <option value = "C-">C-</option>
+                <option value = "D+">D+</option>
+                <option value = "D">D</option>
+                <option value = "F">F</option>
+            </select>
+        </div>
+
         <div class="cgpa">
-            <label for="cgpa">Enter your current cumulative GPA: </label>
+            <label for="cgpa">Current cumulative GPA: </label>
             <input id="gpaInput" type="text" placeholder="Cumulative gpa" />
         </div>
 
         <div class="high_school_credits">
-            <label for="high_school_credits">Enter your completed high school credits: </label>
+            <label for="high_school_credits">Completed high school credits: </label>
             <input id="creditsInput" type="text" placeholder="Credits" />
         </div>
 
-        <div class="sgpa">
+        <!-- <div class="sgpa">
             <label for="sgpa">Enter your current semester GPA: </label>
             <input id="sgpaInput" type="text" placeholder="Semester gpa">
-        </div>
+        </div> -->
 
         <div class="semester_credits">
-            <label for="semester_credits">Enter your semester credits: </label>
+            <label for="semester_credits">Semester credits: </label>
             <input id="scInput" type="text" placeholder="Semester Credits" />
         </div>
 
-        <button id = "btn1">Calculate Cumulative GPA</button>
+        <button id = "btn1">Calculate your GPA</button>
 
         <p2 id="output2"></p2>
+        <p3 id="output3"></p3>
 
         <script src="script.js"></script>
-        <link rel="stylesheet" href="style.css">
     </body>
 </html>
