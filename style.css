@@ -132,16 +132,16 @@ label{
 #output2 {
     color: white;
     display: flex;
-    font-size: 44px;
+    font-size: 33px;
     text-align: right;
     justify-content: right;
-    margin-top: -40px;
+    margin-top: -45px;
 }
 
 #output3 {
     color:white;
     display: flex;
-    font-size: 44px;
+    font-size: 33px;
     justify-content: flex-start;
-    margin-top: -40px;
+    margin-top: -37px;
 }
